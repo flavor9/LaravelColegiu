@@ -1,0 +1,40 @@
+/* Define standard variables and values for website */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  background-color: #272727;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  font-size: 20px;
+  display: flex;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li:nth-last-child(1) {
+  margin-right: 0px;
+}
+
+.content {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 30px;
+}

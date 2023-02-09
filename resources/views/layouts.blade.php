@@ -5,46 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/scss/style.scss'])
 </head>
-<style>
-    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
-
-    * {
-        font-family: "Montserrat", sans-serif;
-        background-color: #272727;
-        color:white;
-    }
-
-    header {
-        display: flex;
-        justify-content: center;
-    }
-
-    ul {
-        font-size: 20px;
-        display: flex;
-        padding: 0;
-    }
-
-    li {
-        list-style-type: none;
-        margin-right: 50px;
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    li:nth-last-child(1) {
-        margin-right: 0px;
-    }
-
-    .content {
-        margin-top: 100px;
-        text-align: center;
-        font-size: 30px;
-    }
-</style>
 
 <body>
     <header>

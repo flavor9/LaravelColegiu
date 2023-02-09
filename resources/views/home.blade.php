@@ -8,6 +8,7 @@
     @section("content")
         <section class="content">
             This is Home Page
+            <button id="ceiti" class="btn btn-danger">CEITI THE BEST</button>
         </section>
 
     @foreach ($elev as $item)
@@ -27,7 +28,6 @@
     @endfor
 
         {{$result}}
-
 
     @endsection
 
