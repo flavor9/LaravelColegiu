@@ -33,8 +33,14 @@ li:nth-last-child(1) {
   margin-right: 0px;
 }
 
+.group {
+  margin: 0;
+  list-style-type: decimal;
+}
+
 .content {
-  margin-top: 100px;
-  text-align: center;
+  padding-top: 100px;
+  // text-align: center;
+
   font-size: 30px;
 }

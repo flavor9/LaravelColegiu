@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\TestController;
+use App\Http\Controllers\ArticleController;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,3 +35,17 @@ Route::get('/contacts', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/test', [TestController::class, 'test']);
+Route::get('/newMethod', [TestController::class, 'newMethod']);
+
+Route::get('/flavor', [ArticleController::class, 'flavor']);
+Route::get('/flavor', [ArticleController::class, 'articles']);
+
+Route::get('/flavor/{id}', [ArticleController::class, 'show']) -> name('articleshow');
+
+// Route::get('test/{id}', function ($id) {
+//     return 'test '.$id;
+// });
+
+
